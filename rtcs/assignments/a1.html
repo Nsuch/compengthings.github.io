@@ -13,7 +13,7 @@
     <div style="display: flex;
     justify-content: center;
     align-items: center; width: 100%;">
-    <h1>Producer Consumer Problem</h1>
+    <h1>Assignment 1</h1>
     </div>
     <br>
     <hr>
@@ -29,9 +29,14 @@
             <div class="col">
             </div>
             <div class="col-8">
+                Chef class that represents the consumer in the Producer-Consumer Problem problem
                 <div style="color: black; background-color: rgb(228, 222, 222); border: 2px solid black; padding: 20px;">
                     <code style="color: black">
-                        printf("Hello World");
+                        public class Chef implements Runnable {
+                            private Table buffer;
+                            private Ingredients holds;
+                            private Ingredients[] received = null;
+                        }
                     </code>
                 </div>
             </div>
